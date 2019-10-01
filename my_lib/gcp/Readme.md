@@ -1,6 +1,6 @@
 # Deploy a Private Package
 
-### GCP Ref: https://cloud.google.com/functions/docs/writing/specifying-dependencies-python
+
 ## Deploy package
 python setup.py sdist
 
@@ -10,6 +10,7 @@ python setup.py sdist
 from gcp_cloud_util.gcp_cloud_util import gcp_cloud_util
 
 ## Cloud Function: Need to copy package locally
+### GCP Ref: https://cloud.google.com/functions/docs/writing/specifying-dependencies-python
 > cd CLOUD_FUNCTION_FOLDER
 
 ## pip install --target=DEPENDENCY_FOLDER PACKAGE_DEPENDENCY_FOLDER
