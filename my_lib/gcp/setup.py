@@ -6,7 +6,7 @@ setup(
     packages=['gcp_cloud_util'],
     description='Test',
     author='Ezzat Demnati',
-    author_email='ezzatdemnati@gmail.com',
+    author_email='1zz4tme@gmail.com',
     license='MIT',
     zip_safe=False,
     install_requires=[
