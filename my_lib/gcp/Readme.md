@@ -1,7 +1,4 @@
-Title
-=======
-
-# Deploy a Private Package
+# How to Deploy a Private Package
 
 
 ## Deploy package
